@@ -33,6 +33,12 @@ All fields are registered post meta (REST-enabled, schema-sanitized) and drive t
 | `cobble_schema_enabled` | `true` | Turn off the plugin’s JSON-LD |
 | `cobble_schema_nodes` | — | Add or change schema nodes on a page |
 | `cobble_breadcrumb_trail` | theme crumbs | Breadcrumb items for BreadcrumbList |
+| `cobble_room_pending_limit( $limit, $room_id )` | `10` | Unanswered requests a room can hold at once |
+| `cobble_schema_restaurant( $node, $location_id )` | — | Change a location’s Restaurant JSON-LD |
+| `cobble_event_schema( $schema, $event_id )` | — | Change an event’s Event JSON-LD |
+| `cobble_menu_page_id( $id )` | detected menu page | Page used for Restaurant `hasMenu` links (`0` when none) |
+| `cobble_seo_plugin_active( $active )` | detected | Treat an SEO plugin as active, which skips the fallback meta tags |
+| `cobble_render_block( $html, $name, $attributes, $content, $block )` | `null` | Return a string to replace a Cobble & Candle block’s output; return `null` to let the theme’s Blade view render it |
 | `cobbleandcandle/brand` | Settings → Restaurant | Theme brand values |
 | `cobbleandcandle/page_link` | page with the block | Resolve `/reservations/`, `/menu/`, `/rooms/`… links |
 
@@ -42,7 +48,12 @@ All fields are registered post meta (REST-enabled, schema-sanitized) and drive t
 | --- | --- |
 | `cobble_reservation_requested( $request, $sent )` | After a table request (keys **and** `*_label` values) |
 | `cobble_room_booking_requested( $booking_id, $sent )` | After a room booking request |
+| `cobbleandcandle_fs_loaded` | After the licensing SDK has started (not fired when licensing is off) |
 | `cobble_log( $entry )` | Every logged problem; hook error trackers here ([examples](troubleshooting.md#send-errors-to-sentry-or-slack)) |
+
+## Editor breakpoints
+
+`theme.json` sets the editor’s responsive previews and block visibility to the theme’s own widths: mobile up to 767 px and tablet up to 1023 px (`settings.viewport`, WordPress 7.1).
 
 ## Client IP behind a proxy
 

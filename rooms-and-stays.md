@@ -17,6 +17,7 @@ In the right-hand panel:
 2. Those nights are held as **pending**. You get an email; the guest gets “We have your request”.
 3. In **Rooms & stays → Bookings**, hover the booking and click **Confirm** (emails the guest “Your stay is confirmed”) or **Cancel** (emails a polite decline).
 4. A request you don’t answer within **48 hours** lapses and frees the nights.
+5. A room holds at most **10 unanswered requests** at once. After that, new requests show “Too many requests from this connection. Please wait a few minutes or call us.” until you confirm, cancel or let some lapse. This stops fake requests from blocking your calendar. Developers can change the number: see [Developers](developers.md#filters).
 
 No card is taken. Ask for a deposit by phone or a payment link if you need one.
 
@@ -28,6 +29,7 @@ No card is taken. Ask for a deposit by phone or a payment link if you need one.
 - **Your bookings → their calendars:** copy the **Calendar export** link from the room’s sidebar and paste it into each platform’s *import calendar* setting.
 - If a platform’s feed can’t be read, its last known nights stay blocked (and the problem shows on the Status page).
 - Keep these links private: they contain secret keys.
+- Only **Editors and Administrators** can add or change a calendar link, because the site fetches those links every hour.
 
 ## Prices on Google
 

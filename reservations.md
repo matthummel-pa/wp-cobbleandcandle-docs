@@ -23,4 +23,4 @@ Requests are just that: requests. Nothing is charged and your tables aren’t bl
 
 ## Spam protection
 
-Every form has a hidden honeypot field and a per-connection limit (5 messages per 10 minutes; 3 for room bookings). Behind Cloudflare, see [Developers](developers.md#client-ip-behind-a-proxy).
+Every form has a hidden honeypot field and a per-connection limit (5 messages per 10 minutes; 3 for room bookings). Fields also have length limits: name 200, email 254, phone 40 and message 4,000 characters. Longer entries are rejected instead of being saved and emailed. Behind Cloudflare, see [Developers](developers.md#client-ip-behind-a-proxy).

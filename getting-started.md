@@ -18,7 +18,7 @@
 | --- | --- |
 | **Your place** | Name, one-line description, and what you run: restaurant, bar or tavern, rooms. |
 | **Look** | Pick a style (Lampwright, Ember & Arch, Ashlar & Iron, Daylight), brand line (“Tavern & kitchen”), year established, currency and 12/24-hour clock. |
-| **Content** | **Import the demo** (3 houses, 4 menus, events, 4 rooms) to see everything working, or **start with your own location**. |
+| **Content** | **Import the demo** (3 houses, 4 menus, events, 4 rooms, plus Tavern and Bed & Breakfast home pages) to see everything working, or **start with your own location**. |
 | **Pages & menus** | Creates Home, Menu, Reservations, Gallery and Our story, sets the front page, and fills the header and footer menus. Anything you already have is kept. |
 | **Done** | Links to the next steps below. |
 
@@ -32,8 +32,12 @@ Each step saves on its own; you can stop and come back. Re-running it never dupl
 - [ ] **Tools → Cobble & Candle status**: send a test email; fix anything marked *Problem*.
 - [ ] **Rooms** (if you have them): set prices and paste your Airbnb / Booking.com calendar links ([guide](rooms-and-stays.md)).
 - [ ] Replace demo photos with your own (Media → Add New, then set each dish, room or page photo).
-- [ ] Delete the demo content you don’t need (Locations, Food & drink, Events, Rooms).
+- [ ] Delete the demo content you don’t need (Locations, Food & drink, Events, Rooms, and the Tavern and Bed & Breakfast pages). The demo import also turns on the demo switchers in the header; see [Branding & styles](branding-and-styles.md#demo-switchers) to turn them off.
+
+## Licence and updates
+
+The theme is sold with a licence key. Updates and support come with an active licence; if it expires, the theme and your site keep working, you just stop receiving updates and support. When you first activate the theme, enter the key from your purchase email on the licence screen that appears.
 
 ## Updating
 
-Upload the newer `cobbleandcandle.zip` the same way; WordPress offers **Replace current with uploaded**. Your content is untouched. Purge your page cache afterwards.
+With an active licence, updates are offered in the usual place (**Dashboard → Updates**, or **Appearance → Themes**). You can also upload the newer `cobbleandcandle.zip` the same way as the first install; WordPress offers **Replace current with uploaded**. Your content is untouched. Purge your page cache afterwards.
