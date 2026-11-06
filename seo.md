@@ -14,7 +14,7 @@ With **Yoast SEO** or **Rank Math** active, these pieces join their graph instea
 
 ## Help Google help you
 
-- Fill **cuisine** and **price range** in Settings → Restaurant.
+- Fill **cuisine** and **price range** in Settings → Theme Settings → Brand.
 - Give each page an **excerpt** (Page → Excerpt panel); it becomes the description.
 - Keep holiday hours up to date: Google shows them in your listing.
-- Claim your **Google Business Profile** and link it in Settings → Restaurant.
+- Claim your **Google Business Profile** and link it in Settings → Theme Settings → Brand.
