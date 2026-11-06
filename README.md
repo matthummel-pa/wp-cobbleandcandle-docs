@@ -16,7 +16,7 @@ Plain-language guides for running your site. New here? Start with **[Getting sta
 | [Reservations](reservations.md) | Table requests, OpenTable / Resy, call-to-book, Messages |
 | [Rooms & stays](rooms-and-stays.md) | Rooms, prices, calendar, bookings, Airbnb / Booking.com sync, dinner add-on |
 | [Events & private dining](events.md) | Events, tickets, add to calendar, private-dining inquiries |
-| [Branding & styles](branding-and-styles.md) | Logo, brand line, the four styles, Site Editor, demo switchers |
+| [Branding & styles](branding-and-styles.md) | Logo, brand line, the four styles, colours, Site Editor |
 | [Patterns](patterns.md) | Home pages, page layouts and the inn and B&B sections |
 | [Fonts](fonts.md) | Use Google Fonts for headings and text, served from your own site, and keep pages light |
 | [Blocks](blocks.md) | The blocks that come with the theme, and choosing which appear in the block picker |
