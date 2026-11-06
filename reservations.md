@@ -19,7 +19,7 @@ Requests are just that: requests. Nothing is charged and your tables aren’t bl
 
 ## Messages
 
-**Messages** lists every table request, private-dining inquiry and contact message with its house and whether the email went out. Open one to read it and **Reply by email**. Messages older than 12 months are deleted automatically; change that under Settings → Restaurant → *Keep guest messages for (months)*.
+**Messages** lists every table request, private-dining inquiry and contact message with its house and whether the email went out. Open one to read it and **Reply by email**. Messages older than 12 months are deleted automatically; change that under Settings → Theme Settings → Brand → *Keep guest messages for (months)*.
 
 ## Spam protection
 
