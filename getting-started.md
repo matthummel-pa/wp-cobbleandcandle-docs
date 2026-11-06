@@ -37,7 +37,7 @@ Settings → Theme Settings has a menu down the left with two toggles, **Set up 
 - [ ] **Tools → Cobble & Candle status**: send a test email; fix anything marked *Problem*.
 - [ ] **Rooms** (if you have them): set prices and paste your Airbnb / Booking.com calendar links ([guide](rooms-and-stays.md)).
 - [ ] Replace demo photos with your own (Media → Add New, then set each dish, room or page photo).
-- [ ] Delete the demo content you don’t need (Locations, Food & drink, Events, Rooms, and the Tavern and Bed & Breakfast pages). The demo import also turns on the demo switchers in the header; see [Branding & styles](branding-and-styles.md#demo-switchers) to turn them off.
+- [ ] Delete the demo content you don’t need (Locations, Food & drink, Events, Rooms, and the Tavern and Bed & Breakfast pages).
 
 ## Licence and updates
 
