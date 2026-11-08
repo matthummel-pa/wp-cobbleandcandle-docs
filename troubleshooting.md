@@ -17,7 +17,7 @@
 | Uploading the theme says **413 Request Entity Too Large** | The host’s web server refuses uploads over about 1 MB before WordPress sees them | Install through File Manager or SFTP instead: [steps below](#install-when-the-host-refuses-the-upload). |
 | Uploading the theme stops at “Unpacking the package…” with “There has been a critical error” | PHP ran out of time (often 30 seconds) while WordPress copied the theme’s roughly 4,500 files. The error log says “Maximum execution time … exceeded”. A slow disk makes it more likely | Install by extracting the zip instead: [steps below](#install-when-the-host-refuses-the-upload). Or ask the host to raise PHP’s `max_execution_time` (120 seconds or more) and upload again. If a half-copied `wp-content/themes/cobbleandcandle` folder is left without a `style.css`, delete it first. |
 | A page looks unstyled after an update | Old cached CSS | Purge the cache; hard-refresh the browser. |
-| Dish fields missing | Old version | Update Cobble & Candle Core; dishes edit in the block editor with a *Price & details* panel. |
+| Dish fields missing | Old version | Update Cobble & Candle Core. Dishes open as a plain form (photo, description, price and sizes, diet and allergens, chef's pick, sold out, served at) under **Food & drink → Add menu item**. |
 
 ## Error logs
 
@@ -62,6 +62,14 @@ add_action( 'cobble_log', function ( array $entry ) {
 
 Each `$entry` has `time`, `level` (`error`, `warning`, `info`), `source` (`mail`, `ical`, `import`…), `message` and a small `context` array (IDs, HTTP codes). Never personal data.
 
+## The Journal, newsletter and sharing
+
+- **The Journal is a plain list, or its page is missing.** Go to Settings → Reading, choose "A static page", and pick your Journal page as the Posts page. The demo import creates one when your site shows a static front page.
+- **Newsletter sign-ups do not reach Mailchimp.** Open Theme Settings → Newsletter and save: it checks your API key and audience ID and shows what Mailchimp answers. The key ends with a dash and a code such as `-us19`; the audience ID is under Audience → Settings → Audience name and defaults. For other services check the form address and field names against the service's form code.
+- **The pasted form does not show.** Only administrators who may post unfiltered HTML can save pasted code. A security plugin or `DISALLOW_UNFILTERED_HTML` also blocks it: use the form address or sign-up page link instead.
+- **A share button or icon is missing.** Choose them under Theme Settings → Social & sharing. Footer icons show for each profile address you filled in.
+- **Demo posts or photos are missing after a re-import.** Run `wp cobbleandcandle seed --update` from the site folder.
+
 ## Install when the host refuses the upload
 
 **413 Request Entity Too Large** means the host’s web server (usually nginx) is refusing the file before WordPress or PHP sees it. Its default limit is 1 MB and the theme zip is about 7 MB. No PHP setting and no `.htaccess` file can change that, and some hosts do not let you change it at all, so install by extracting the zip on the server instead.
@@ -81,6 +89,8 @@ The same steps fix an upload that runs out of time. WordPress copies the theme�
 **SSH.** `wp theme install /path/to/cobbleandcandle.zip --activate`.
 
 Once the theme is installed, updates are not affected: WordPress downloads them itself, server to server.
+
+**Developers:** to measure a host’s real limit without uploading anything, run `python3 scripts/probe-upload-limit.py yourdomain.com`. It sends only request headers and reports where the web server starts answering 413.
 
 ## Still stuck?
 

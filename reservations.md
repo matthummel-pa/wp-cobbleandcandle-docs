@@ -17,10 +17,14 @@ Each location chooses a booking mode (Locations → the house → **Booking**):
 
 Requests are just that: requests. Nothing is charged and your tables aren’t blocked automatically, so you stay in control of the floor.
 
+## The newsletter tick box
+
+The form asks guests whether they would like the newsletter. The answer is always written in the request email ("Newsletter: Yes"). If you have set up **Theme Settings → Newsletter** with *Mailchimp with an API key* or *Keep the list on this site*, a guest who ticks the box is also added to that list (to Mailchimp's double opt-in if you left it on). With the other newsletter options the tick is only recorded in the email, because those services take sign-ups in the visitor's own browser.
+
 ## Messages
 
-**Messages** lists every table request, private-dining inquiry and contact message with its house and whether the email went out. Open one to read it and **Reply by email**. Messages older than 12 months are deleted automatically; change that under Settings → Theme Settings → Brand → *Keep guest messages for (months)*.
+**Messages** lists every table request, private-dining inquiry, contact message, event sign-up and event question with its house and whether the email went out. Open one to read it and **Reply by email**. Messages older than 12 months are deleted automatically; change that under Settings → Theme Settings → Brand → *Keep guest messages for (months)*.
 
 ## Spam protection
 
-Every form has a hidden honeypot field and a per-connection limit (5 messages per 10 minutes; 3 for room bookings). Fields also have length limits: name 200, email 254, phone 40 and message 4,000 characters. Longer entries are rejected instead of being saved and emailed. Behind Cloudflare, see [Developers](developers.md#client-ip-behind-a-proxy).
+Every form has a hidden honeypot field and a per-connection limit (5 messages per 10 minutes; 3 for room bookings and event sign-ups). Fields also have length limits: name 200, email 254, phone 40 and message 4,000 characters. Longer entries are rejected instead of being saved and emailed. Behind Cloudflare, see [Developers](developers.md#client-ip-behind-a-proxy).

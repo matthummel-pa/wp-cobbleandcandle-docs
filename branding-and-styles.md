@@ -17,7 +17,11 @@ Switch in the setup wizard (*Look*) or **Appearance → Editor → Styles**. A s
 
 ## Editing pages
 
-Pages are built from blocks. **Appearance → Editor** edits templates (header, footer, the 404 page); each page’s content is edited from **Pages**. Cobble & Candle blocks are in the inserter under **Cobble & Candle**: Hero, Hours strip, Signature dishes, Menu teaser, Full menu, Story, Timeline, Values, Reviews, Upcoming events, Rooms, Gallery, Private dining, Reservations, Locations explorer, Contact, CTA band and more. Click a block to change its text in the sidebar.
+Pages are built from blocks. **Appearance → Editor** edits templates (header, footer, the 404 page); each page’s content is edited from **Pages**. Cobble & Candle blocks are in the inserter under **Cobble & Candle**: Hero, Hours strip, Signature dishes, Menu teaser, Full menu, Story, Timeline, Values, Reviews, Upcoming events, Rooms, Gallery, Private dining, Reservations, Locations explorer, Contact, CTA band, and the Journal and Newsletter blocks. See [Blocks](blocks.md) for what each does and how to hide the ones you do not use.
+
+## Social links
+
+Your footer shows an icon for each social profile you add under **Settings → Theme Settings → Social & sharing**, and the same tab picks the share buttons for posts and events. See [Newsletter, share buttons and social links](newsletter.md#share-buttons-and-social-profiles).
 
 ## Photos
 
