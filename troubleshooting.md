@@ -99,7 +99,7 @@ You activate Cobble & Candle, open another admin page, and your previous theme i
 This happens on theme versions before 1.5.1 when the licence key has not been entered yet. Fix it in two steps:
 
 1. Update to 1.5.1 or later: **Appearance → Themes → Add New → Upload Theme**, choose the new `cobbleandcandle.zip`, then **Replace current with uploaded**.
-2. Activate the theme. **Settings → Theme Settings** opens with the licence screen. Paste the key from your purchase email and choose **Activate License**. The setup wizard appears once the licence is active.
+2. Activate the theme, then open **Appearance → Theme licence**. Paste the key from your purchase email and choose **Activate License**.
 
 On 1.5.1 and later the theme stays active while you do this, even if you visit other admin pages first.
 
