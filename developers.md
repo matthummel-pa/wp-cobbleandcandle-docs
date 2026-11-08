@@ -101,6 +101,10 @@ wp cobbleandcandle seed --update   # refresh the demo content you already have (
 
 ## Build and release
 
+The theme is delivered as a built zip (Composer vendor folder and compiled assets included), so you do not need Node or Composer to use it. The source repository is private.
+
+**The theme and the Core plugin update separately.** An update replaces the theme; the plugin stays as it was until an admin replaces it. When the theme needs a newer plugin than the one installed, wp-admin shows an update notice whose button installs the copy bundled inside the theme. If you call plugin functions from your own code, guard calls to anything new with `function_exists()` so an older plugin degrades instead of failing the page.
+
 To fix a typo or an out-of-date step, open a pull request on the documentation repository (see its [README](README.md)).
 
 **The theme and the Core plugin update separately.** Freemius updates the theme; the plugin stays as it was until an admin replaces it. Two rules keep that safe:

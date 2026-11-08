@@ -4,7 +4,7 @@ Setup guides, how-tos and support for the **Cobble & Candle** WordPress theme an
 
 ## Owner guide
 
-Plain-language guides for running your site. New here? Start with **[Getting started](getting-started.md)**.
+Plain-language guides for running your site. New here? Start with **[Getting started](getting-started.md)**. The same guides are inside WordPress at **Settings → Theme Settings → Support**, read from this repository, so a fix here shows up on every site.
 
 | Guide | What it covers |
 | --- | --- |

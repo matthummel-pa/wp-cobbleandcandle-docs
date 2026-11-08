@@ -4,7 +4,7 @@ Cobble & Candle is a WordPress block theme for restaurants, taverns and inns, wi
 
 ## Get answers fast
 
-Most questions are answered in the [guides](README.md). The [FAQ](faq.md) and [Troubleshooting](troubleshooting.md) cover the common ones.
+Most questions are answered in the [guides](README.md). The [FAQ](faq.md) and [Troubleshooting](troubleshooting.md) cover the common ones. The same guides are inside WordPress at **Settings → Theme Settings → Support**.
 
 ## Where things are
 
@@ -21,7 +21,9 @@ Everything is in **Settings → Theme Settings**. **Set up your site** has Brand
 
 ## Contact support
 
-Email **hello@matthummel.com** and include:
+The quickest way is **Settings → Theme Settings → Create a ticket** inside WordPress. Fill in the short form and press **Send ticket**: it is emailed to us with a reference number such as `CC-261106-7K2F`, and our reply comes to the email address you give. The system report can go with it (tick the box), so you do not have to copy anything. If your site cannot send email, the ticket is saved and the tab offers **Send again** or an **Email it yourself** link.
+
+You can also email **hello@matthummel.com** directly and include:
 
 - What you did, what you expected, what happened (screenshots help).
 - The **system report** from Tools → Cobble & Candle status (copy and paste it). It contains versions and settings, never passwords, emails or guest details.

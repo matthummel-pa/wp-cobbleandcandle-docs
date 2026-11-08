@@ -94,4 +94,4 @@ Once the theme is installed, updates are not affected: WordPress downloads them 
 
 ## Still stuck?
 
-Copy the **System report** from the Status page and ask for help: see [Support](support.md).
+Copy the **System report** from the Status page (or the Support tab) and send it with a ticket (**Settings → Theme Settings → Create a ticket**) or by email: see [Support](support.md).
