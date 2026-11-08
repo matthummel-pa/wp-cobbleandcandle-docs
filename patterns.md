@@ -21,7 +21,7 @@ On the demo pages the header’s main button follows the kind of business: the B
 | **Menu page** | The full menu with diet filters |
 | **Reservations page** | Table requests or your booking widget |
 | **Gallery page** | Photos with a lightbox |
-| **About page** | Your story, timeline and values |
+| **About page** | Your story, timeline and values, press and diner quotes, and your latest journal posts |
 | **No results** | The message shown when a search or filter finds nothing |
 
 ## Sections for inns and B&Bs

@@ -4,12 +4,11 @@ Each **location** (“house”) has its own address, phone, email, hours, bookin
 
 ## Add or edit a location
 
-**Locations → Add location.** In the right-hand panel:
+**Locations → Add location.** In the editor's right-hand settings panel (the sidebar), open:
 
 - **Address & contact**: street, town, phone, bookings email (requests for this house go here), map coordinates (optional; used for Google’s map pin).
-- **Opening hours**: open/close per day, or *Closed*. Closing after midnight (e.g. 01:00) is fine.
-- **Holiday hours**: specific dates that override the week (Christmas Eve 17:00–21:00, New Year’s Day closed).
-- **Booking**: *Booking form on this site*, *OpenTable widget*, *Resy widget* or *Bookings by phone*, plus an optional online-ordering link.
+- **Opening hours**: open and close per day, or *Closed* (closing after midnight, such as 01:00, is fine), and **holiday hours**: specific dates that override the week (Christmas Eve 17:00–21:00, New Year’s Day closed).
+- **Reservations & ordering**: *Booking form on this site*, *OpenTable widget*, *Resy widget* or *Bookings by phone*, plus booking and online-ordering links.
 - **Getting there**: parking, transit and accessibility notes shown on the location page and Reservations.
 
 ## “Open now”

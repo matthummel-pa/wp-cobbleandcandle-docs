@@ -6,6 +6,10 @@ Cobble & Candle is a WordPress block theme for restaurants, taverns and inns, wi
 
 Most questions are answered in the [guides](README.md). The [FAQ](faq.md) and [Troubleshooting](troubleshooting.md) cover the common ones.
 
+## Where things are
+
+Everything is in **Settings → Theme Settings**. **Set up your site** has Brand, Look, Fonts, Content, Pages & menus and a Checklist (with a table of where each part of the site is managed). **Features and services** has Blocks, Connect services, Newsletter and Social & sharing. **Support** has this help, the guides and a ticket form.
+
 ## Before you write to us
 
 1. Open **Tools → Cobble & Candle status**. Fix anything marked **Problem** or **Check**; most issues (emails not arriving, pages 404ing, wrong times) show up there.
@@ -13,6 +17,7 @@ Most questions are answered in the [guides](README.md). The [FAQ](faq.md) and [T
 3. If you use a page cache (LiteSpeed, WP Rocket, your host’s cache), purge it.
 4. Confirm both the theme **Cobble & Candle** and the plugin **Cobble & Candle Core** are active and up to date.
 5. Under **Settings → Permalinks** choose “Post name”, and under **Settings → General** set a city timezone.
+6. If a blog page is missing, choose your Journal page under **Settings → Reading → Posts page**. If newsletter sign-ups do not arrive, open **Theme Settings → Newsletter**, save, and read the connection message.
 
 ## Contact support
 
@@ -34,6 +39,7 @@ Found a vulnerability? Email **hello@matthummel.com** with “Security” in the
 
 - Take card payments for rooms or tables (every stay and table is a request you confirm).
 - Replace a full point-of-sale or online-ordering system (link your Toast, Square or ChowNow ordering page instead).
+- Send email campaigns. The newsletter form collects sign-ups and passes them to Mailchimp, Constant Contact or the service you choose; you write and send campaigns there.
 - Guarantee legal accessibility compliance. We test against WCAG 2.2 AA, but your content matters too.
 - Require Elementor, ACF or any page builder.
 

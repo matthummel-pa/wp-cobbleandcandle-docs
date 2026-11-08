@@ -4,12 +4,17 @@ Turn on rooms by adding one under **Rooms & stays → Add room**. The *Rooms* pa
 
 ## A room
 
-In the right-hand panel:
+**Rooms & stays → Add room** is a plain form, not the block editor. At the top, the room's **Photo** and a one-line **Summary**; then the **Description**; then groups that open and close. Anything you leave empty does not show on the page.
 
-- **Price per night**, optional **Friday & Saturday price**, **minimum nights**, **maximum guests**.
-- **How many rooms of this kind**: 3 identical doubles = 3; the calendar only shows a night as booked when all are taken.
-- **Beds**, **size**, **house**, and **Amenities** (ensuite, bath, breakfast, fireplace, step-free…).
-- Photo (featured image), story (the body) and excerpt (used on cards).
+- **Rates & capacity**: price per night, an optional Friday & Saturday price, minimum nights, maximum guests, **how many rooms of this kind** (3 identical doubles = 3; the calendar only shows a night as booked when all are taken), beds, size and the house.
+- **At a glance**: check-in and check-out times, bathroom, view, and a short list of what makes the room special.
+- **Amenities**: tick what the room has (ensuite, bath, breakfast, fireplace, step-free and more).
+- **Photos**: add pictures with captions. They show as a mosaic under the room's name and open in a full-screen viewer.
+- **Breakfast and policies**: breakfast details, house rules (one per line) and your cancellation policy.
+- **Nearby and questions**: places guests walk to, and answers to what they usually ask (parking, check-in, dogs, dinner).
+- **Calendar sync**: see below.
+
+On the room page guests see the photos, an at-a-glance strip, the details above, and the booking calendar and request form beside them.
 
 ## How booking works
 

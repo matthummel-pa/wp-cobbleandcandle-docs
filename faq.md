@@ -21,3 +21,11 @@
 **How do I get updates?** Upload the newer theme zip (WordPress offers to replace the current one). See [Getting started](getting-started.md#updating).
 
 **Can an agency use it for clients?** Yes. Theme and plugin are GPL; see your store licence for support terms.
+
+**Can I have a blog?** Yes. The Journal is a full blog with categories, a featured post, search, press quotes and diner write-ups, reading time, share buttons and a newsletter form. See [The Journal](journal.md).
+
+**Which email services does the newsletter form work with?** Mailchimp directly with an API key; Brevo, MailerLite, Kit, Buttondown and most others through their form address; Constant Contact through its pasted form code or a link to its sign-up page; or keep the list on your site and download it. See [Newsletter, share buttons and social links](newsletter.md).
+
+**Why does a dish, event or room not open in the block editor?** On purpose: those open as a plain form with every detail in one place. Developers can switch it back with the `cobble_classic_form_types` filter.
+
+**Which social icons are used, and do they slow the site?** Simple Icons (CC0, public domain), drawn inline in the page: no icon font and no extra request. Pick your share buttons and profiles under Theme Settings → Social & sharing.
