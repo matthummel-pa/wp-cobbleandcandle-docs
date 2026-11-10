@@ -18,7 +18,8 @@ Plain-language guides for running your site. New here? Start with **[Getting sta
 | [Events & private dining](events.md) | Events, tickets, sign-ups, performers, add to calendar, private-dining inquiries |
 | [The Journal (blog)](journal.md) | Posts, categories, press quotes and diner write-ups, search and sharing details |
 | [Newsletter, share buttons and social links](newsletter.md) | Mailchimp, Constant Contact and other services; the sign-up form; share buttons; profile links |
-| [Branding & styles](branding-and-styles.md) | Logo, brand line, the four styles, colours, Site Editor |
+| [Theme Settings](theme-settings.md) | Every tab of Settings → Theme Settings, field by field, with screenshots |
+| [Branding & styles](branding-and-styles.md) | Logo, brand line, the four styles, colours, legal links and payments in the footer, Site Editor |
 | [Patterns](patterns.md) | Home pages, page layouts and the inn and B&B sections |
 | [Fonts](fonts.md) | Use Google Fonts for headings and text, served from your own site, and keep pages light |
 | [Blocks](blocks.md) | The blocks that come with the theme, and choosing which appear in the block picker |

@@ -42,7 +42,8 @@ The menu down the left has three groups.
 
 - [ ] **Locations**: set opening hours and holiday hours for each house ([guide](locations-and-hours.md)).
 - [ ] **Menus**: import your menu from a spreadsheet: Food & drink → Import / export ([guide](menus.md)).
-- [ ] **Settings → Theme Settings → Brand**: upload your logo and check currency. Add your profile links under **Social & sharing**.
+- [ ] **Settings → Theme Settings → Brand**: upload your logo, check currency and tick the payment methods you take. Add your profile links under **Social & sharing**.
+- [ ] **Legal pages**: publish your privacy policy, terms and accessibility statement, then run **Pages & menus** again so the footer links them ([guide](branding-and-styles.md#footer-legal-links-and-payments)).
 - [ ] **Tools → Cobble & Candle status**: send a test email; fix anything marked *Problem*.
 - [ ] **Posts**: write your first Journal post, and choose the Journal page under Settings → Reading → Posts page ([guide](journal.md)).
 - [ ] **Newsletter**: connect Mailchimp, Constant Contact or another service ([guide](newsletter.md)).

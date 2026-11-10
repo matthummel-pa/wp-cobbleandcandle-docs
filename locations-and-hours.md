@@ -10,6 +10,13 @@ Each **location** (“house”) has its own address, phone, email, hours, bookin
 - **Opening hours**: open and close per day, or *Closed* (closing after midnight, such as 01:00, is fine), and **holiday hours**: specific dates that override the week (Christmas Eve 17:00–21:00, New Year’s Day closed).
 - **Reservations & ordering**: *Booking form on this site*, *OpenTable widget*, *Resy widget* or *Bookings by phone*, plus booking and online-ordering links.
 - **Getting there**: parking, transit and accessibility notes shown on the location page and Reservations.
+- **Payments accepted**: what this house takes, if it differs from the site-wide list ([below](#payments-accepted)).
+
+## Payments accepted
+
+Each location can say what it takes: edit the location and open **Payments accepted** in the sidebar. Tick the methods that house accepts and, if useful, add a short note (“Cards only, no cash”). They show on that location's page and in its tab on the Locations page, as plain text under the hours and notes, and in its search listing.
+
+Leave every box empty and the location shows the list from **Settings → Theme Settings → Brand → Payments** instead, so a site where every house takes the same payments only has to set it once. A location with its own list shows exactly that list and its own note (the site-wide note is not borrowed).
 
 ## “Open now”
 

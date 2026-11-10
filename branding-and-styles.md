@@ -4,6 +4,19 @@
 
 **Settings → Theme Settings → Brand**: upload a logo (SVG or PNG, about 120 px tall), set the brand line (“Dining rooms”, “Tavern & kitchen”) and the year established. Without a logo, the crest uses your first initial and year.
 
+## Footer: legal links and payments
+
+The bottom bar of the footer has the copyright, your legal links and what you take for payment.
+
+**Legal links** (privacy policy, terms, accessibility statement, cookie policy, cancellation policy, allergen information) are the menu in **Appearance → Menus → Legal Links**. You write the pages; the theme only links them. Two shortcuts:
+
+- In **Set up your site → Pages & menus**, the **Legal** menu adds a link for each of those pages that is already published (a draft is skipped). It never edits the pages and adds only what is missing, so you can run it again after you publish another page. It finds the page chosen under **Settings → Privacy**, then pages with the address `terms-and-conditions` (or `terms`), `accessibility-statement` (or `accessibility`), `cookie-policy`, `cancellation-policy` and `allergens`.
+- With no Legal Links menu, the footer shows your **Privacy Policy** page when one is chosen and published under **Settings → Privacy**.
+
+**Payments:** **Settings → Theme Settings → Brand → Payments**. Tick the cards, wallets and other methods you take, and add a short note if it needs one (“Cash only at the bar”). They appear as “We accept” under the copyright and legal links. They are plain text, not card logos. Leave everything empty to hide the line.
+
+This list is the **default**. Locations that take different payments have their own list (see [Locations & hours](locations-and-hours.md#payments-accepted)). The footer only shows this site-wide list, so if your houses differ, leave it empty and set each location instead, or the footer could promise something one house does not do.
+
 ## Four styles
 
 | Style | Mood |
