@@ -22,6 +22,8 @@ All fields are registered post meta (REST-enabled, schema-sanitized) and drive t
 | --- | --- | --- |
 | `cobble_currency` | Settings → Theme Settings → Brand or `USD` | ISO currency for prices and schema |
 | `cobble_money` | — | Format a price string |
+| `cobble_payment_options( $options )` | the sixteen methods in Brand → Payments | Add, remove or rename a payment method (slug => label) |
+| `cobble_legal_page_slugs( $groups )` | privacy, terms, accessibility, cookies, cancellation, allergens | Page addresses the Legal menu step looks for (one page per group) |
 | `cobble_menu_allergens( $allergens )` | the nine US FDA major allergens | Add or remove an allergen a dish can be marked with (key => label), for example the EU's other allergens |
 | `cobble_menu_feed_item( $dish, $item )` | — | Change one dish in the JSON menu feed |
 | `cobble_event_providers( $providers )` | Eventbrite, Facebook, Meetup, Luma, Ticketmaster, DICE and others | Services a tickets link can go to (host fragment => name on the button) |
