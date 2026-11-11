@@ -53,7 +53,7 @@ The menu down the left has three groups.
 
 ## Licence and updates
 
-The theme is sold with a licence key. Updates and support come with an active licence; if it expires, the theme and your site keep working, you just stop receiving updates and support. When you first activate the theme, enter the key from your purchase email on the licence screen that appears.
+The theme is sold with a licence key. Updates and support come with an active licence; if it expires, the theme and your site keep working, you just stop receiving updates and support. After you activate the theme, open **Appearance → Theme licence**, paste the key from your purchase email and choose **Activate License**. If the theme switches back to your old theme before you get that far, see [Troubleshooting](troubleshooting.md#the-theme-switches-back-to-my-old-theme).
 
 ## Updating
 

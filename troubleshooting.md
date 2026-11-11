@@ -92,6 +92,21 @@ Once the theme is installed, updates are not affected: WordPress downloads them 
 
 **Developers:** to measure a host’s real limit without uploading anything, run `python3 scripts/probe-upload-limit.py yourdomain.com`. It sends only request headers and reports where the web server starts answering 413.
 
+## The theme switches back to my old theme
+
+You activate Cobble & Candle, open another admin page, and your previous theme is active again.
+
+This happens on theme versions before 1.5.1 when the licence key has not been entered yet. Fix it in two steps:
+
+1. Update to 1.5.1 or later: **Appearance → Themes → Add New → Upload Theme**, choose the new `cobbleandcandle.zip`, then **Replace current with uploaded**.
+2. Activate the theme, then open **Appearance → Theme licence**. Paste the key from your purchase email and choose **Activate License**.
+
+On 1.5.1 and later the theme stays active while you do this, even if you visit other admin pages first.
+
+## “Cobble & Candle Core needs updating”
+
+This notice means the theme is newer than the Core plugin on your site. Choose **Update Cobble & Candle Core** in the notice; it installs the copy bundled with the theme. If the button is missing (only administrators who can install plugins see it), upload the `cobbleandcandle-core.zip` that came with the theme: **Plugins → Add New → Upload Plugin**, then **Replace current with uploaded**. Your locations, menus, rooms and bookings are kept.
+
 ## Still stuck?
 
 Copy the **System report** from the Status page (or the Support tab) and send it with a ticket (**Settings → Theme Settings → Create a ticket**) or by email: see [Support](support.md).
